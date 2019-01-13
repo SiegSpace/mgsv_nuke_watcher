@@ -88,7 +88,7 @@ def gather_data():
 	nuke_amount['stm'] = nukes['data']['info']['num']
 
 	ps3_client = Client(platform='ps3')
-	ps3_client.login()
+#	ps3_client.login()
 	ps3_nukes = ps3_client.get_nuclear()[0]
 	nuke_amount['ps3'] = ps3_nukes['data']['info']['num']
 
